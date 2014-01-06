@@ -21,8 +21,6 @@
     <copyfile src="lazyMine.sh" dest="lazyMine.sh" />
     <copyfile src="lazyOthers.sh" dest="lazyOthers.sh" />
   </project>
-    <!--custom kernel -->
-  + <project path="kernel/asus/franciscofranco" name="franciscofranco/Grouper-3.1.10" remote="rascarlo" revision="nightlies-4.4" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -304,6 +302,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel/asus/franciscofranco" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="nightlies-4.4" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
