@@ -22,7 +22,7 @@
     <copyfile src="lazyOthers.sh" dest="lazyOthers.sh" />
   </project>
   <!-- custom kernel-->
-  <project path="kernel/asus/francis" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="nightlies-4.4" />
+  <project path="kernel/asus/francis" name="franciscofranco/Grouper-3.1.10" remote="rascarlo" revision="nightlies-4.4" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
