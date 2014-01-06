@@ -10,6 +10,8 @@
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
+           
+           
 
 <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr1.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -18,6 +20,7 @@
     <copyfile src="lazyMine.sh" dest="lazyMine.sh" />
     <copyfile src="lazyOthers.sh" dest="lazyOthers.sh" />
   </project>
+  + <project path="kernel/asus/franciscofranco" name="franciscofranco/Grouper-3.1.10" remote="rascarlo" revision="nightlies-4.4" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
